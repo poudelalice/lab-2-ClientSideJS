@@ -31,3 +31,4 @@ function changeBackgroundColor() {
     console.log("New background color:", rgbColor);
 }
 });
+//tested and made sure that it works!!
