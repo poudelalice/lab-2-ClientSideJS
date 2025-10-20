@@ -1,7 +1,8 @@
 //page color changer js for changing bg by moving red,green,blue sliders
 
 //waiting until the page is fully loaded before running the script
-document.addEventListener('DOMContentLoaded', function() {
+window.onload = function () {
+
 
 //grabbing all sliders and page bg
 const redSlider = document.getElementById('red');
@@ -30,5 +31,5 @@ function changeBackgroundColor() {
     //logging the color to the console for testing
     console.log("New background color:", rgbColor);
 }
-});
+};
 //tested and made sure that it works!!
